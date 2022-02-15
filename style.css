@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2B3856;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box{
+    width: 300px;
+    height: 350px;
+    background-color: #2B3856;
+    margin-top: 10%;
+    margin-left: 40%;
+    background: none;
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
+    border-image-slice: 1;
+    text-align: center;
+}
+ .main .box h1{
+     color: white;
+     margin-top: 70px;
+ }
+ #username{
+     width: 200px;
+     height: 30px;
+     background: none;
+     border: 2px solid transparent;
+     border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
+     border-image-slice: 1;
+ }
+
+ #username:hover{
+     box-shadow: 5px 5px;
+ }
+
+ #username::placeholder{
+     color:white;
+ }
+
+ #password{
+    width: 200px;
+    height: 30px;
+    background: none;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
+    border-image-slice: 1;
+    margin-top: 15px;
+}
+
+#password:hover{
+    box-shadow: 5px 5px;
+}
+
+#password::placeholder{
+    color:white;
+}
+
+#login{
+    width: 100px;
+    height: 30px;
+    background: white;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
+    border-image-slice: 1;
+    margin-top: 15px;
+}
+
+#login:hover{
+    background: none;
+    color: white;
+}
